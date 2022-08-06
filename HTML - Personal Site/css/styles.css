@@ -1,0 +1,26 @@
+body {
+    background-color:#e5faf7 ;
+}
+
+hr{
+    border-color:grey;
+    border-style: dotted none none;
+    border-width: 8px;
+    width: 10%;
+}
+
+img:hover{
+    width: 250px;
+}
+
+h1,h3{
+    color: #66BFBF;
+}
+
+#idiot{
+    font-size: 200px;
+}
+/*Id selectors [#heading, id=heading], class selectors[.bacon, class=bacon], tag selectors*/
+/*use class for more than one, less specific*/
+/*use id for single or two, more specific*, can only use once/
+/*cannot use<hr idiot idiot2> not for id, but works for class*/

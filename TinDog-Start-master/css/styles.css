@@ -3,7 +3,7 @@
     color: #fff;
 }
 .container-fluid{
-    padding:3% 15%;
+    padding:3% 15% 7%;
 }
 body{
     font-family: Montserrat;
@@ -24,11 +24,6 @@ h3{
     font-family: "Montserrat";
     font-weight: 700;
     font-size: 1.5rem;
-}
-
-.rotate_image{
-    -webkit-transform: rotate(30deg);
-    transform: rotate(30deg);
 }
     
 /*navigation bar*/
@@ -56,8 +51,10 @@ h3{
 }
 /* title image */
 .title-image{
-    width:60%;
+    width:20%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 23%;
 }
 
 /* features */
@@ -73,7 +70,9 @@ h3{
     color:#8f8f8f;
 }
 #features{
+    background-color: #fff;
     padding: 7% 15%;
+    position: relative;
 }
 .feature-box{
     padding: 5%;
@@ -105,4 +104,14 @@ h3{
 }
 .carousel-item{
     padding: 7% 15%;
+}
+
+/* pricing section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
 }

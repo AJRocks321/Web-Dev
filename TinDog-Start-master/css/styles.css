@@ -122,12 +122,13 @@ h3{
     }
     .title-image{
         position: static;
-        width: 1000%;
+        width: 100%;
         transform: rotate(0deg);
     }
 }
 
 /* lastsection */
+
 #cta{
     background-color: #ff4c68;
     padding: 7% 15% 1% 15%;
@@ -141,6 +142,7 @@ h3{
 }
 
 /* footer */
+
 #footer{
     background-color: #fff;
     padding: 5% 20% 1% 20%;

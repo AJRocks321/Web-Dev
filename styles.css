@@ -1,0 +1,86 @@
+body{
+    background-color: #fff;
+}
+
+.title{
+    background-image: url(images/firstimage.png);
+    background-repeat: no-repeat;
+    padding: 70px 200px 140px 200px ;
+}
+
+.nav-text{
+    font-size: 2rem;
+    color: #D2DAFF;
+    font-family: "Ubuntu";
+    font-weight: 500;
+}
+
+.navbar-a{
+    margin-bottom: 50px;
+}
+
+.text-shine{
+    color:#D2DAFF;
+}
+
+h1{
+    color: #EEF1FF;
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 5rem;
+}
+h5{
+    color: #848484;
+    font-family: "Ubuntu";
+    font-weight: 700;
+    font-size: 2rem;
+}
+h5:hover{
+    color: #B1B2FF;
+}
+a{
+    text-decoration: none;
+}
+
+.collections{
+    padding: 100px 200px;
+}
+
+.card{
+    text-align: center;
+    background-color: #d4d4d4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+.card:hover{
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+}
+.item-img{
+    width:30%;
+    border-radius: 100%;
+    margin:20px;
+}
+.box{
+    padding: 8px;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+@media (max-width: 1028px){
+    .title{
+        padding: 70px 50px 140px 50px ;
+    }
+    .collections{
+        padding: 100px 50px;
+    }
+}
+#footer{
+    background-color: #d4d4d4;
+    padding: 7% 20%;
+}
+.footer-text{
+    font-size: 1.2rem;
+    text-align: center;
+    color: #848484;
+    font-family: "Montserrat";
+    font-weight: 500;
+}

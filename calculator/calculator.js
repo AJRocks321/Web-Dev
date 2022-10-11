@@ -14,3 +14,15 @@ app.post("/",function(req,res){
     
 });
 app.listen(3000,console.log("server started"))
+
+
+app.get("/bmicalculator",function(req,res){
+    res.sendFile(__dirname+"/bmiCalculator.html")
+})
+app.post("/bmicalculator",function(req,res){
+    console.log(req.body)
+    var h=parseFloat(req.body.h);
+    var w=parseFloat(req.body.w);
+    var bmi=w/(h*h);
+    res.send("Your BMI is "+bmi);
+})
